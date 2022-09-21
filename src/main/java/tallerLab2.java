@@ -2,8 +2,6 @@ import java.util.Scanner;
 
 public class tallerLab2 {
     public static void main(String args[]) {
-        menu(matrizSismos);
-
     }
     public static void menu(double[][] matrizSismos){
         Scanner sn = new Scanner(System.in);
