@@ -16,4 +16,20 @@ public class tallerLab2 {
             validarDias();
         }
     }
+    public static double [][] matrizHorasDias(int nDias){
+        double generarMatriz[][]= new double[nDias][24];
+        return generarMatriz;
+    }
+    public static double generarGrado(){
+        double grado= Math.random()*9.5+0.5;
+        return grado;
+    }
+    public static void llenarMatriz(double [][] matrizHorasDias){
+        for (int columna=0;columna<=matrizHorasDias.length;columna++){
+            for (int fila=0;fila<=matrizHorasDias[columna].length; fila++){
+                generarGrado();
+            }
+        }
+    }
+
 }
